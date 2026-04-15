@@ -18,6 +18,18 @@ This repository provides a flexible way to manage academic results. Instead of a
 
 Ensure you have **Python 3.x** installed on your system.
 
+### 0. Open in browser
+
+Don't want to go through the hassle of cloning, installing dependencies, and running code locally?
+
+You're in luck! I've deployed the web version using Streamlit Community Cloud.
+
+[👉 Click here to try the live CGPA Calculator](https://cgpa-calculators.streamlit.app/)
+
+No setup. No downloads. Just click and calculate!
+
+
+
 ### 1. Clone the Project
 ```bash
 git clone [https://github.com/yourusername/cgpa-calculator.git](https://github.com/yourusername/cgpa-calculator.git)
@@ -41,7 +53,8 @@ pip install streamlit
 Simply run the Python script to open the window:
 
 ```bash
-python tkinter_app.py
+cd "Using tkinter"
+python main.py
 ```
 
   * **Best for:** Quick, offline calculations.
@@ -52,6 +65,7 @@ python tkinter_app.py
 Launch the local server to view it in your browser:
 
 ```bash
+cd "Using streamlit"
 streamlit run streamlit_app.py
 ```
 
@@ -77,6 +91,3 @@ $$CGPA = \frac{\sum (\text{Grade Points} \times \text{Credits})}{\sum \text{Tota
 
 -----
 **Happy Studying\!** 📝
-
-```
-
